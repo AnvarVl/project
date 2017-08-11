@@ -1,0 +1,30 @@
+@font-face {
+			font-family: "BenderBold";
+			src: url("../fonts/BenderBold/BenderBold.eot");
+			src: url("../fonts/BenderBold/BenderBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BenderBold/BenderBold.woff") format("woff"),
+			url("../fonts/BenderBold/BenderBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "BenderLight";
+			src: url("../fonts/BenderLight/BenderLight.eot");
+			src: url("../fonts/BenderLight/BenderLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/BenderLight/BenderLight.woff") format("woff"),
+			url("../fonts/BenderLight/BenderLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	 @font-face {
+ font-family: 'Puritan20Italic';
+ src: url('style/type/puritan/puritan_italic-webfont.eot?') format('eot'),  url('style/type/puritan/puritan_italic-webfont.woff') format('woff'),  url('style/type/puritan/puritan_italic-webfont.ttf') format('truetype'),  url('style/type/puritan/puritan_italic-webfont.svg#webfontZMWmRIPG') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'Puritan20Normal';
+ src: url('style/type/puritan/puritan_regular-webfont.eot?') format('eot'),  url('style/type/puritan/puritan_regular-webfont.woff') format('woff'),  url('style/type/puritan/puritan_regular-webfont.ttf') format('truetype'),  url('style/type/puritan/puritan_regular-webfont.svg#webfontJ25dHiGv') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}

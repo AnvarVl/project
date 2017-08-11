@@ -1,0 +1,304 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	background-image: url(../img/42-fon-dlya-sayta.png);
+	background-repeat: repeat;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	font-family: "BenderLight";
+}
+.hidden {
+	display: none;
+}
+.header{
+	background-image: url(../img/42-fon-dlya-sayta.png);
+	border: 5px solid #fff;
+	height: 570px;
+	margin-top: 80px;
+	padding: 120px 0 0 90px;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+}
+.header .header_left p {
+	line-height: 27px;
+	margin-top: 60px;
+	font-size: 18PX;
+	color: #cfcdcd;
+}
+.header .header_left ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 70px;
+}
+.header .header_left ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.header .header_left ul li a{
+	color: #777474;
+	transition: all .4s;
+}
+.header .header_left ul li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.header .header_right ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin-top: 42px;
+}
+.header .header_right ul li{
+	display: inline-block;
+	padding-right: 33px;
+}
+.header .header_right ul li img{
+	width: 65%;
+	transition: all .4s;
+}
+.header .header_right ul li img:hover{
+	filter: invert(1);
+}
+.bgi{
+	background-image: url(../img/wordpress.png);
+	background-repeat: no-repeat;
+	height: 285px;
+	margin-top: 9px;
+}
+.section_1 {
+	margin-top: 80px;
+}
+#wr-tabs .tabs{
+	background-color: #fff;
+	margin-bottom: 3px;
+	background-image: url(../img/42-fon-dlya-sayta.png);
+}
+#wr-tabs .tabs:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+#wr-tabs .tabs .tab {
+	float: left;
+	cursor: pointer;
+	margin-left: 22px;
+}
+
+#wr-tabs .tabs .tab:last-child{
+	border-right: none;
+}
+#wr-tabs .tabs .tab:hover,
+#wr-tabs .tabs .tab.active{
+	transition: all .4s;
+	box-shadow: none;
+}
+#wr-tabs .tabs .tab h2{
+	padding: 35px 80px;
+	background-image: url(../img/sayta.png);
+	color: #fff;
+}
+#wr-tabs .tabs .tab .t1:hover{
+	background-image: url(../img/iGHJ5XRVJ.png);
+	background-repeat: no-repeat;
+	background-position: top 20px left 20px;
+}
+#wr-tabs .tabs .tab .t2:hover{
+	background-image: url(../img/pattern.png);
+	background-repeat: no-repeat;
+	background-position: top 20px left 20px;
+}
+#wr-tabs .tabs .tab .t3:hover{
+	background-image: url(../img/копия.png);
+	background-repeat: no-repeat;
+	background-position: top 20px left 20px;
+}
+#wr-tabs .content{
+	background-image: url(../img/42-fon-dlya-sayta.png);
+	border: 5px solid #fff;
+	height: 570px;
+	margin-top: 80px;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+}
+#wr-tabs .content{
+	background-color: #fff;
+	display: block;
+}
+#wr-tabs .content .tab-cont{
+	display: none;
+}
+#wr-tabs .content .tab-cont.active{
+	display: block;
+}
+.content .tab-cont {
+	text-align: center;
+	margin-top: 100px;
+}
+.content .tab-cont .description{
+	margin-top: 30px;
+}
+.content .tab-cont h1{
+	font-size: 28px;
+	color: #fff;
+	line-height: 31px;
+}
+.content .tab-cont p{
+	font-size: 20px;
+	color: #fff;
+}
+.section_2{
+	padding: 0px;
+	margin: 100px 0 100px;
+}
+.section_work ul li{
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+}
+.section_2 .section_work ul{
+	list-style-type: none;
+	margin: 2px 0 2px;
+	text-align: center;
+}
+.section_2 .section_work ul li{
+	display: inline-block;
+	width: 30%;
+	padding: 0;
+	margin: 10px 5px 10px;
+	position: relative;
+}
+.section_2 .section_work ul li img{
+	width: 100%;
+}
+.section_work .descr{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	padding-top: 80px;
+	text-align: center;
+	opacity: 0;
+	transition: all .5s;
+	top: 100px;
+}
+.section_work ul li:hover .descr{
+	opacity: 1;
+	top: 0;
+}
+.section_comment .comment ul{
+	list-style-type: none;
+	text-align: center;
+}
+.section_comment .comment ul li{
+	display: inline-block;
+	margin: 10px 20px;
+	position: relative;
+}
+.section_comment .descr{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+	color: #fff;
+	padding-top: 80px;
+	text-align: center;
+	opacity: 0;
+	transition: all .5s;
+	top: 100px;
+}
+.section_comment .comment ul li:hover .descr{
+	opacity: 1;
+	top: 0;
+}
+.section_comment ul li{
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+	border: 5px solid #fff;
+}
+.footer{
+	background-image: url(../img/42-fon-dlya-sayta.png);
+	border: 5px solid #fff;
+	height: 570px;
+	margin-top: 80px;
+	padding: 30px 0 0 80px;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+	margin-bottom: 80px;
+}
+.footer h1{
+	font-family: "BenderBold";
+	color: #fff;
+	font-size: 42px;
+	letter-spacing: 0.1em;
+	margin-left: 96px;
+}
+.footer ul{
+	list-style-type: none;
+	margin-top: 0;
+}
+.footer ul li{
+	display: inline-block;
+	margin: 20px 35px;
+}
+.footer ul li img{
+	transition: all .5s;
+}
+.footer ul li img:hover{
+	filter: invert(1);
+}
+.footer form .namee{
+	width: 87%;
+}
+.footer form input{
+	height: 45px;
+	border-radius: 5px;
+	border: 3px solid #fff;
+	padding: 10px 10px;
+}
+.footer form input:hover{
+	border-color:  #a2d1f4;
+}
+.footer form .ident {
+	width: 40%;
+	margin: 20px 37px 20px 0;
+}
+
+.footer form textarea{
+	border-radius: 5px;
+	padding: 10px 10px;
+	width: 87%;
+	border: 3px solid #fff;
+}
+.footer form textarea:hover{
+	border-color:  #a2d1f4;
+}
+.footer form .butt{
+	height: 50px;
+	text-align: center;
+	margin: 20px 37px 20px 0;
+	background-color: #00bfc6;
+	color: #fff;
+	width: 218px;
+	font-family: "BenderBold";
+}
