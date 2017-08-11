@@ -116,24 +116,15 @@ body {
 	box-shadow: none;
 }
 #wr-tabs .tabs .tab h2{
-	padding: 35px 80px;
-	background-image: url(../img/sayta.png);
+	padding: 20px 55px;
 	color: #fff;
+	border: 4px solid #fff;
+	box-shadow: 0 0 22px rgba(0,0,0,1);
+	transition: all .4s;
 }
-#wr-tabs .tabs .tab .t1:hover{
-	background-image: url(../img/iGHJ5XRVJ.png);
-	background-repeat: no-repeat;
-	background-position: top 20px left 20px;
-}
-#wr-tabs .tabs .tab .t2:hover{
-	background-image: url(../img/pattern.png);
-	background-repeat: no-repeat;
-	background-position: top 20px left 20px;
-}
-#wr-tabs .tabs .tab .t3:hover{
-	background-image: url(../img/копия.png);
-	background-repeat: no-repeat;
-	background-position: top 20px left 20px;
+#wr-tabs .tabs .tab h2:hover,
+#wr-tabs .tabs .tab.active h2{
+	box-shadow: none;
 }
 #wr-tabs .content{
 	background-image: url(../img/42-fon-dlya-sayta.png);
@@ -293,7 +284,7 @@ body {
 .footer form textarea:hover{
 	border-color:  #a2d1f4;
 }
-.footer form .butt{
+.footer form button{
 	height: 50px;
 	text-align: center;
 	margin: 20px 37px 20px 0;
@@ -301,4 +292,7 @@ body {
 	color: #fff;
 	width: 218px;
 	font-family: "BenderBold";
+	border-radius: 5px;
+	border: 3px solid #fff;
+	padding: 10px 10px;
 }
